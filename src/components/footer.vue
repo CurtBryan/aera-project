@@ -63,11 +63,11 @@ export default {};
   color: #eb9009;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .footer-link-heading-container {
-  width: 90%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
 }
@@ -75,13 +75,17 @@ export default {};
   width: 25%;
 }
 h3 {
-  font-weight: 700;
+  font-weight: 500;
   padding-bottom: 10px;
   border-bottom: 2px solid #c07607;
 }
-.direct-link-container > p {
+p {
   margin: 10px 0;
   font-size: 14px;
   color: white;
+}
+p:hover {
+  color: #eb9009;
+  cursor: pointer;
 }
 </style>
