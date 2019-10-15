@@ -46,7 +46,7 @@ export default {};
   width: 100vw;
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .footer-body-db-cont {
   width: 80vw;
@@ -63,7 +63,7 @@ export default {};
   color: #eb9009;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 .footer-link-heading-container {
