@@ -154,9 +154,10 @@ table {
   border-spacing: 0;
 }
 #app {
-  max-width: 100vw;
+  width: 100vw;
+  min-height: 100vh;
   background-image: url("./assets/img/main-background.jpg");
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Georgia", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-repeat: repeat;

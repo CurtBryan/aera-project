@@ -44,12 +44,13 @@ export default {};
 <style scoped>
 .footer-body {
   width: 100vw;
+  max-width: 1200px;
+  margin: 5px auto;
   display: flex;
   justify-content: center;
-  margin: 5px 0;
 }
 .footer-body-db-cont {
-  width: 80vw;
+  width: 90vw;
   border-top: 5px solid #c07607;
   border-bottom: 5px solid #c07607;
   background-image: url("../assets/img/footer-bg.png");
@@ -86,5 +87,19 @@ p {
 p:hover {
   color: #eb9009;
   cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .footer-body-db-cont {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-link-heading-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-link-heading-container > div {
+    width: 90%;
+  }
 }
 </style>

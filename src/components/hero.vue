@@ -13,11 +13,13 @@ export default {};
 <style scoped>
 .hero-body {
   width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 .hero-body-db-cont {
-  width: 80vw;
+  width: 90vw;
 }
 img {
   width: 100%;

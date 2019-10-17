@@ -65,35 +65,35 @@
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="../assets/img/brad-peters.png" alt="hero image" />
+          <img src="http://aerassoc.org/wpimages/wpda1accd4_06.png" alt="hero image" />
           <div>
             <h3>Robin McMath</h3>
             <p class="i-text">Vice-President</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="../assets/img/brad-peters.png" alt="hero image" />
+          <img src="http://aerassoc.org/wpimages/wpcb48d586_06.png" alt="hero image" />
           <div>
             <h3>Matt West</h3>
             <p class="i-text">Treasurer</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="../assets/img/brad-peters.png" alt="hero image" />
+          <img src="http://aerassoc.org/wpimages/wp6a4307da_06.png" alt="hero image" />
           <div>
             <h3>Anne Stagliano</h3>
             <p class="i-text">Secretary</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="../assets/img/brad-peters.png" alt="hero image" />
+          <img src="http://aerassoc.org/wpimages/wp4f112f57_06.png" alt="hero image" />
           <div>
             <h3>Kim Peters</h3>
             <p class="i-text">Board Member</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="../assets/img/brad-peters.png" alt="hero image" />
+          <img src="http://aerassoc.org/wpimages/wp910ece9f_06.png" alt="hero image" />
           <div>
             <h3>Tawnya Combe</h3>
             <p class="i-text">Board Member</p>
@@ -111,11 +111,13 @@ export default {};
 <style scoped>
 .home-page-cont {
   width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 .home-page-db-cont {
-  width: 80vw;
+  width: 90vw;
   background-color: white;
   display: flex;
 }

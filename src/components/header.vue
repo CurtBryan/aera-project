@@ -3,10 +3,10 @@
     <div class="header-body-db-cont">
       <div class="header-links-container">
         <router-link class="nav-link" to="/">Home</router-link>
-        <router-link class="nav-link" to="/represenitives">Represenitives</router-link>
-        <p class="nav-link">Companies</p>
-        <p class="nav-link">Events</p>
-        <p class="nav-link">Contact</p>
+        <router-link class="nav-link" to="/representatives">Representatives</router-link>
+        <router-link class="nav-link" to="/companies">Companies</router-link>
+        <router-link class="nav-link" to="/events">Events</router-link>
+        <router-link class="nav-link" to="/contact">Contact</router-link>
       </div>
     </div>
   </div>
@@ -19,11 +19,13 @@ export default {};
 <style scoped>
 .header-body {
   width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 .header-body-db-cont {
-  width: 80vw;
+  width: 90vw;
 }
 .header-links-container {
   width: 100%;
