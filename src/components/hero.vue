@@ -22,4 +22,9 @@ export default {};
 img {
   width: 100%;
 }
+@media screen and (max-width: 700px) {
+  .hero-body-db-cont {
+    width: 100vw;
+  }
+}
 </style>

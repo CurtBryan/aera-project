@@ -154,6 +154,7 @@ table {
   border-spacing: 0;
 }
 #app {
+  max-width: 100vw;
   background-image: url("./assets/img/main-background.jpg");
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

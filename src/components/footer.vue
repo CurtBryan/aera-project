@@ -50,7 +50,6 @@ export default {};
 }
 .footer-body-db-cont {
   width: 80vw;
-  height: 300px;
   border-top: 5px solid #c07607;
   border-bottom: 5px solid #c07607;
   background-image: url("../assets/img/footer-bg.png");
@@ -58,12 +57,12 @@ export default {};
 }
 .footer-link-container {
   width: 100%;
-  height: 100%;
   background-color: rgba(0, 0, 0, 0.767);
   color: #eb9009;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .footer-link-heading-container {
@@ -72,7 +71,7 @@ export default {};
   justify-content: space-between;
 }
 .footer-link-heading-container > div {
-  width: 25%;
+  width: 20%;
 }
 h3 {
   font-weight: 500;

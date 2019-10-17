@@ -13,15 +13,45 @@
         <div class="resources-box box">
           <h2>Resources</h2>
           <ul>
-            <li>Arizona Department of Education</li>
-            <li>AZ Common Core Standards</li>
-            <li>Arizona Reading Association</li>
-            <li>Arizona's College and Career Ready Standards</li>
-            <li>International Reading Association</li>
-            <li>National Council of Teachers of English</li>
-            <li>National Council of Teachers of Mathematics</li>
-            <li>National Council of Supervisors of Mathematics</li>
-            <li>PARCC</li>
+            <li>
+              <a href="http://www.azed.gov/" target="_blank">Arizona Department of Education</a>
+            </li>
+            <li>
+              <a href="https://www.azed.gov/azccrs/" target="_blank">AZ Common Core Standards</a>
+            </li>
+            <li>
+              <a
+                href="http://www.corestandards.org/"
+                target="_blank"
+              >Arizona's College and Career Ready Standards</a>
+            </li>
+            <li>
+              <a
+                href="https://www.literacyworldwide.org/"
+                target="_blank"
+              >International Reading Association</a>
+            </li>
+            <li>
+              <a
+                href="http://www2.ncte.org/"
+                target="_blank"
+              >National Council of Teachers of English</a>
+            </li>
+            <li>
+              <a
+                href="https://www.nctm.org/"
+                target="_blank"
+              >National Council of Teachers of Mathematics</a>
+            </li>
+            <li>
+              <a
+                href="https://www.mathedleadership.org/"
+                target="_blank"
+              >National Council of Supervisors of Mathematics</a>
+            </li>
+            <li>
+              <a href="https://parcc-assessment.org/" target="_blank">PARCC</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -104,9 +134,13 @@ li {
   font-size: 18px;
   margin-bottom: 10px;
 }
-li:hover {
+a:hover {
   color: #0070bc;
   cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 .person-cont {
   width: 30%;

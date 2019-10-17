@@ -2,15 +2,11 @@
   <div class="header-body">
     <div class="header-body-db-cont">
       <div class="header-links-container">
-        <p class="nav-link">Home</p>
-        <p class="nav-link">Represenitives</p>
+        <router-link class="nav-link" to="/">Home</router-link>
+        <router-link class="nav-link" to="/represenitives">Represenitives</router-link>
         <p class="nav-link">Companies</p>
-        <p class="nav-link">Calender Events</p>
+        <p class="nav-link">Events</p>
         <p class="nav-link">Contact</p>
-        <div class="search-container">
-          <input />
-          <button>search</button>
-        </div>
       </div>
     </div>
   </div>
@@ -30,23 +26,22 @@ export default {};
   width: 80vw;
 }
 .header-links-container {
+  width: 100%;
   border-top: 5px solid #c07607;
   border-bottom: 5px solid #c07607;
   background-color: #0070bc;
   display: flex;
-  justify-content: space-between;
   align-content: center;
+  text-align: center;
 }
-.nav-link,
-.search-container {
+.nav-link {
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-right: 1px solid black;
-}
-.nav-link {
-  width: 15%;
+  width: 20%;
+  text-overflow: ellipsis;
   color: white;
 }
 .nav-link:hover {
@@ -54,10 +49,19 @@ export default {};
   color: black;
   cursor: pointer;
 }
-.search-container {
-  width: 25%;
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
+@media screen and (max-width: 700px) {
+  .header-body-db-cont {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 520px) {
+  .header-links-container {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
 }
 </style>
