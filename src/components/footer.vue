@@ -6,29 +6,28 @@
           <div>
             <h3>Site Information</h3>
             <div class="direct-link-container">
-              <p>Home</p>
-              <p>Our Representatives</p>
-              <p>Companies We Represent</p>
-              <p>Contact Information</p>
+              <p @click="$router.push({ name: 'HomePage' })">Home</p>
+              <p @click="$router.push({ name: 'Representatives' })">Our Representatives</p>
+              <p @click="$router.push({ name: 'Companies' })">Companies We Represent</p>
+              <p @click="$router.push({ name: 'Contact' })">Contact Information</p>
             </div>
           </div>
           <div>
             <h3>Event Calendar</h3>
             <div class="direct-link-container">
-              <p>News and Events</p>
+              <p @click="$router.push({ name: 'Events' })">News and Events</p>
             </div>
           </div>
           <div>
             <h3>Membership Information</h3>
             <div class="direct-link-container">
-              <p>Membership Application Form</p>
-              <p>Membership Dues Information</p>
+              <p @click="$router.push({ name: 'MemberSignUp' })">Membership Application Form</p>
             </div>
           </div>
           <div>
             <h3>Request More Information</h3>
             <div class="direct-link-container">
-              <p>Contact Form</p>
+              <p @click="$router.push({ name: 'Contact' })">Contact Form</p>
             </div>
           </div>
         </div>

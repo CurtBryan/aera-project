@@ -161,5 +161,6 @@ table {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-repeat: repeat;
+  overflow-x: hidden;
 }
 </style>

@@ -60,42 +60,42 @@
         <div class="single-person-cont">
           <img src="../assets/img/brad-peters.png" alt="hero image" />
           <div>
-            <h3>Brad Peters</h3>
+            <h3 @click="pushToDetails('Brad Peters')">Brad Peters</h3>
             <p class="i-text">President</p>
           </div>
         </div>
         <div class="single-person-cont">
           <img src="http://aerassoc.org/wpimages/wpda1accd4_06.png" alt="hero image" />
           <div>
-            <h3>Robin McMath</h3>
+            <h3 @click="pushToDetails('Robin McMath')">Robin McMath</h3>
             <p class="i-text">Vice-President</p>
           </div>
         </div>
         <div class="single-person-cont">
           <img src="http://aerassoc.org/wpimages/wpcb48d586_06.png" alt="hero image" />
           <div>
-            <h3>Matt West</h3>
+            <h3 @click="pushToDetails('Matt West')">Matt West</h3>
             <p class="i-text">Treasurer</p>
           </div>
         </div>
         <div class="single-person-cont">
           <img src="http://aerassoc.org/wpimages/wp6a4307da_06.png" alt="hero image" />
           <div>
-            <h3>Anne Stagliano</h3>
+            <h3 @click="pushToDetails('Anne Stagliano')">Anne Stagliano</h3>
             <p class="i-text">Secretary</p>
           </div>
         </div>
         <div class="single-person-cont">
           <img src="http://aerassoc.org/wpimages/wp4f112f57_06.png" alt="hero image" />
           <div>
-            <h3>Kim Peters</h3>
+            <h3 @click="pushToDetails('Kim Peters')">Kim Peters</h3>
             <p class="i-text">Board Member</p>
           </div>
         </div>
         <div class="single-person-cont">
           <img src="http://aerassoc.org/wpimages/wp910ece9f_06.png" alt="hero image" />
           <div>
-            <h3>Tawnya Combe</h3>
+            <h3 @click="pushToDetails('Tawnya Combe')">Tawnya Combe</h3>
             <p class="i-text">Board Member</p>
           </div>
         </div>
@@ -105,7 +105,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "HomePage",
+  methods: {
+    pushToDetails: function(name) {
+      this.$router.push({ name: "SingleRep", params: { displayName: name } });
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -135,6 +142,7 @@ ul {
 li {
   font-size: 18px;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 a:hover {
   color: #0070bc;
@@ -169,7 +177,24 @@ h3 {
   text-decoration: underline;
   margin-bottom: 3px;
 }
+h3:hover {
+  color: #eb9009;
+  cursor: pointer;
+}
 .i-text {
   font-style: italic;
+}
+@media screen and (max-width: 700px) {
+  .home-page-db-cont {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .text-cont {
+    width: 95%;
+  }
+  .person-cont {
+    width: 80%;
+  }
 }
 </style>

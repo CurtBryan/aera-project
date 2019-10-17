@@ -45,6 +45,7 @@ export default {};
   width: 20%;
   text-overflow: ellipsis;
   color: white;
+  text-decoration: none;
 }
 .nav-link:hover {
   background-color: #eb9009;

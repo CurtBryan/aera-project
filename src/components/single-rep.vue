@@ -18,7 +18,7 @@
             {{ info.fax }}
           </p>
           <br />
-          <p>
+          <p class="email">
             <span class="label">Email:</span>
             {{ info.email }}
           </p>
@@ -59,11 +59,9 @@ export default {
   mounted() {
     const list = this.$store.state.persons;
     const name = this.$route.params.displayName;
-    for (let i = 0; i < list.length - 1; i++) {
+    for (let i = 0; i < list.length; i++) {
       if (list[i].displayName === name) {
         this.info = list[i];
-      } else {
-        console.log("data not found");
       }
     }
   }
@@ -128,6 +126,9 @@ li {
 }
 img {
   max-width: 300px;
+}
+.email {
+  word-wrap: break-word;
 }
 @media screen and (max-width: 700px) {
   .single-rep-db-cont {

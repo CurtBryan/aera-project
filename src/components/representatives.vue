@@ -24,7 +24,6 @@ export default {
   },
   mounted() {
     this.persons = this.$store.state.persons;
-    console.log(this.persons);
   },
   methods: {
     pushToDetailPage(index) {
@@ -81,27 +80,32 @@ export default {
 p {
   font-size: 20px;
 }
+p:hover {
+  cursor: pointer;
+  color: #0070bc;
+}
 h1 {
   color: #0070bc;
   font-size: 24px;
 }
 .button {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 40px;
-  border-radius: 10px;
-  border: 1px solid black;
   background-color: #0070bc;
+  border: none;
   color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 18px;
-  font-weight: 600;
-  padding: 2px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 .button:hover {
   background-color: #eb9009;
+  color: black;
   cursor: pointer;
 }
 @media screen and (max-width: 800px) {
@@ -112,15 +116,20 @@ h1 {
 @media screen and (max-width: 700px) {
   .rep-db-cont {
     width: 100vw;
-    min-height: 400px;
-  }
-}
-@media screen and (max-width: 374px) {
-  .rep-db-cont {
     min-height: 600px;
   }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .rep-db-cont {
+    min-height: 800px;
+  }
   .name-cont {
-    height: 400px;
+    height: 600px;
   }
 }
 </style>
