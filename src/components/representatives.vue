@@ -7,7 +7,10 @@
       </div>
       <div class="name-cont">
         <div class="single-name" v-for="(person, index) in persons" :key="index">
-          <p @click="pushToDetailPage(index)">{{ person.name }}</p>
+          <p @click="pushToDetailPage(index)">
+            {{ person.name }}
+            <i v-if="person.email === 'chalexn@cox.net'">Ed.D.</i>
+          </p>
         </div>
       </div>
     </div>
@@ -49,7 +52,7 @@ export default {
   width: 90vw;
   height: 400px;
   background: white;
-  background-image: url("../assets/img/rep-bg-img.png");
+  background-image: url("https://imgur.com/QCF2uO7.png");
   background-size: auto;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -73,6 +76,9 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+}
+i {
+  font-style: italic;
 }
 .single-name {
   margin: 5px 0;

@@ -156,7 +156,7 @@ table {
 #app {
   width: 100vw;
   min-height: 100vh;
-  background-image: url("./assets/img/main-background.jpg");
+  background-image: url("https://i.imgur.com/aPV6Bmo.jpg");
   font-family: "Georgia", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

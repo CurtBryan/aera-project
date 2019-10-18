@@ -1,7 +1,7 @@
 <template>
   <div class="hero-body">
     <div class="hero-body-db-cont">
-      <img src="../assets/img/hero-new-bg.png" alt="hero image" />
+      <img src="https://i.imgur.com/JMwPQLE.png" alt="hero image" />
     </div>
   </div>
 </template>

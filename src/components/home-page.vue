@@ -5,6 +5,13 @@
         <div class="welcome-box box">
           <h2>Welcome</h2>
           <p>To the Arizona Educational Representatives' Association, an organization comprised of educational publishers' sales representatives, education consultants, and associates who provide quality educational products, services and resources to Arizona schools, school districts and other educational establishments.</p>
+          <h4>How We Help</h4>
+          <ul>
+            <li>Help AZ educators find quality educational solutions.</li>
+            <li>Help with instructional materials review.</li>
+            <li>Help provide AZ experience knowledge consultant</li>
+            <li>Trusted advisor held to code of ethics</li>
+          </ul>
         </div>
         <div class="mission-box box">
           <h2>Our Mission</h2>
@@ -58,47 +65,50 @@
       <div class="person-cont box">
         <h2>Officers</h2>
         <div class="single-person-cont">
-          <img src="../assets/img/brad-peters.png" alt="hero image" />
+          <img src="https://imgur.com/bGIXHDz.png" alt="hero image" />
           <div>
             <h3 @click="pushToDetails('Brad Peters')">Brad Peters</h3>
             <p class="i-text">President</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="http://aerassoc.org/wpimages/wpda1accd4_06.png" alt="hero image" />
+          <img src="https://imgur.com/XwIOfbP.png" alt="hero image" />
           <div>
             <h3 @click="pushToDetails('Robin McMath')">Robin McMath</h3>
             <p class="i-text">Vice-President</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="http://aerassoc.org/wpimages/wpcb48d586_06.png" alt="hero image" />
+          <img src="https://i.imgur.com/BJw1eiO.png" alt="hero image" />
           <div>
             <h3 @click="pushToDetails('Matt West')">Matt West</h3>
             <p class="i-text">Treasurer</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="http://aerassoc.org/wpimages/wp6a4307da_06.png" alt="hero image" />
+          <img src="https://i.imgur.com/AmNGzGV.png" alt="hero image" />
           <div>
             <h3 @click="pushToDetails('Anne Stagliano')">Anne Stagliano</h3>
             <p class="i-text">Secretary</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="http://aerassoc.org/wpimages/wp4f112f57_06.png" alt="hero image" />
+          <img src="https://i.imgur.com/Gg21ggc.png" alt="hero image" />
           <div>
             <h3 @click="pushToDetails('Kim Peters')">Kim Peters</h3>
             <p class="i-text">Board Member</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="http://aerassoc.org/wpimages/wp910ece9f_06.png" alt="hero image" />
+          <img src="https://i.imgur.com/yizdMWj.png" alt="hero image" />
           <div>
             <h3 @click="pushToDetails('Tawnya Combe')">Tawnya Combe</h3>
             <p class="i-text">Board Member</p>
           </div>
         </div>
+      </div>
+      <div class="book-wrapper">
+        <img class="book-img" src="https://imgur.com/htc2AA9.png" />
       </div>
     </div>
   </div>
@@ -119,12 +129,14 @@ export default {
 .home-page-cont {
   width: 100vw;
   max-width: 1200px;
+  min-height: 900px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 .home-page-db-cont {
   width: 90vw;
+  min-height: 900px;
   background-color: white;
   display: flex;
 }
@@ -137,7 +149,7 @@ export default {
   width: 70%;
 }
 ul {
-  list-style-image: url("../assets/img/bullet.png");
+  list-style-image: url("https://i.imgur.com/ZyVJgtb.png");
 }
 li {
   font-size: 18px;
@@ -181,8 +193,29 @@ h3:hover {
   color: #eb9009;
   cursor: pointer;
 }
+
+h4 {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
 .i-text {
   font-style: italic;
+}
+.book-wrapper {
+  position: relative;
+}
+.book-img {
+  height: 300px;
+  position: absolute;
+  bottom: -20px;
+  right: 10px;
+}
+@media screen and (max-width: 860px) {
+  .book-wrapper {
+    display: none;
+  }
 }
 @media screen and (max-width: 700px) {
   .home-page-db-cont {

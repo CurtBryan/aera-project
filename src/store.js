@@ -6,8 +6,8 @@ Vue.use(Vuex);
 const state = {
   persons: [
     {
-      name: "Chalex, Nancy B. Ed.D.",
-      displayName: "Nancy B. Chalex, Ed.D.",
+      name: "Chalex, Nancy B.",
+      displayName: "Nancy B. Chalex",
       company: "Benchmark Education",
       location: "Scottsdale, AZ",
       phone: "480-292-2732",
@@ -15,7 +15,7 @@ const state = {
       email: "chalexn@cox.net",
       territory: "Arizona",
       link: "https://benchmarkeducation.com/",
-      image: "http://aerassoc.org/wpimages/wp3a0e03ba_06.png",
+      image: "https://imgur.com/vaJKZDW.png",
       services: [
         "K-12 Core and Supplemental Reading and Writing; Leveled books, Professional Development; Ebooks, online resources.",
         "Customized support also includes resources from Stenhouse, Mondo Publishing, Collaborative Classroom, Newmark Learning, and Okapi Educational Publishing"
@@ -31,7 +31,7 @@ const state = {
       email: "cloudassociates@aol.com",
       territory: "Arizona",
       link: "http://www.cloudedu.com/",
-      image: "http://aerassoc.org/wpimages/wpe6c72113_06.png",
+      image: "https://imgur.com/2oaQ5mq.png",
       services: [
         "Arizona history, Arizona government, Arizona map and Arizona Native American programs",
         "eBook texts of latest editions",
@@ -49,7 +49,7 @@ const state = {
       email: "mrscombe@msn.com",
       territory: "Arizona",
       link: "",
-      image: "http://aerassoc.org/wpimages/wp20a1c2e8_06.png",
+      image: "https://imgur.com/Lj9cyad.png",
       services: [
         "K-12",
         "Mathematics, Reading/Language, Media/Library, Science, Social Studies, Special Education, Technology, ESL, Intervention, Educational Technology"
@@ -78,7 +78,7 @@ const state = {
       email: "jayne.feuerbacher@pearson.com",
       territory: "Arizona",
       link: "www.pearson.com",
-      image: "http://aerassoc.org/wpimages/wpeef1a3d7_06.png",
+      image: "https://imgur.com/LyorMYt.png",
       services: [
         "Basal products for the K-6 school markets including math, reading, social studies, science, music, arts, etc and intervention products as well as technology."
       ]
@@ -93,7 +93,7 @@ const state = {
       email: "",
       territory: "Arizona",
       link: "www.amplify.com",
-      image: "http://aerassoc.org/wpimages/wp90e8eb57_06.png",
+      image: "https://imgur.com/PvcoCaw.png",
       services: [
         "Prek-12- Mathematics, Reading/Language, Media/Library, Science, Special Education, Technology, Tests/TestPrep, Professional Development, ESL, Intervention, Assessment, Educational Technology."
       ]
@@ -108,7 +108,7 @@ const state = {
       email: "barbara.job@learninga-z.com",
       territory: "Arizona",
       link: "http://learninga-z.com/",
-      image: "http://aerassoc.org/wpimages/wp7062a971_06.png",
+      image: "https://imgur.com/RaFT94n.png",
       services: ["online materials for differentiated instruction."]
     },
     {
@@ -121,7 +121,7 @@ const state = {
       email: "RMcMath@cainc.com",
       territory: "Arizona, Nevada, New Mexico",
       link: "http://curriculumassociates.com/",
-      image: "http://aerassoc.org/wpimages/wp391550b9_06.png",
+      image: "https://imgur.com/Dngo4K0.png",
       services: [
         "Supplemental products for K-12 including BRIGANCE Early Childhood and Special Education inventories, i-Ready Diagnostic and Instruction K-12 and Ready Common Core"
       ]
@@ -136,7 +136,7 @@ const state = {
       email: "kim.peters@cox.net",
       territory: "Arizona",
       link: "http://www.triumphlearning.com/",
-      image: "http://aerassoc.org/wpimages/wpf102ef46_06.png",
+      image: "https://imgur.com/TcKt3K6.png",
       services: [
         "Gr. K-12",
         "Triumph Learning is the leading publisher of K-12 Common Core resources, standards-aligned instructional materials, and effective literacy programs (Coach, Buckledown & Options Publishing).",
@@ -150,10 +150,10 @@ const state = {
       location: "2200 S. Navajo Way Chandler, AZ 85286",
       phone: "602-757-7529",
       fax: "",
-      email: "",
+      email: "brad.peters@cox.net",
       territory: "West",
       link: "http://www.vantagelearning.com/",
-      image: "http://aerassoc.org/wpimages/wp8b61de1f_06.png",
+      image: "https://imgur.com/4bIVnmB.png",
       services: [
         "Since 1990, Vantage Learning has provided educators with sophisticated knowledge and immediate feedback solutions to enhance student learning. These technologies are currently deployed for diagnostic, formative, benchmark, summative, placement, and pre-/post-testing solutions as well as instructional purposes. Our applications are designed to be cost-effective, secure, and scalable to fit any need."
       ]
@@ -168,14 +168,14 @@ const state = {
       email: "anne.stagliano@mheducation.com",
       territory: "Arizona",
       link: "http://www.mheonline.com/",
-      image: "http://aerassoc.org/wpimages/wpd7933d2a_06.png",
+      image: "https://imgur.com/Ar4P6ye.png",
       services: [
         "Pre-K 12, K-5 Core Programs, Mathematics, Reading/Language, Science, Social Studies, Special Education, Technology, Art, Tests/Test Prep, Health, Professional Development, Learning Management, ESL, Intervention, Assessment, Educational Technology"
       ]
     },
     {
       name: "Sykes, Larissa",
-      displayName: "Anne Stagliano",
+      displayName: "Larissa Sykes",
       company: "McGraw-Hill Education",
       location: "8787 Orion Place Columbus, OH 43240",
       phone: "602.315.9102",
@@ -183,7 +183,7 @@ const state = {
       email: "larissa.sykes@mheducation.com",
       territory: "Arizona",
       link: "www.odysseyware.com",
-      image: "http://aerassoc.org/wpimages/wpd7933d2a_06.png",
+      image: "https://imgur.com/Ar4P6ye.png",
       services: [
         "K-5/6",
         "Foreign Language, Mathematics, Reading/Language, Science, Social Studies, Special Education, Technology, Art, Health, Professional Development, Intervention, Assessment, Educational Technology"
@@ -194,12 +194,13 @@ const state = {
       displayName: "Kendra Whittaker",
       company: "Cambridge University Press",
       location: "1962 S Talbot Circle Mesa, AZ  85209-7055",
-      phone: "(800) 872-7423 / (800)-ESL-BUZZ",
+      phone:
+        "(800) 872-7423 / (800)-ESL-BUZZ / [Toll-Free:] (855) 778-1134 / [Mobile:] (347) 963-6936",
       fax: "",
       email: "kwhittaker@cambridge.org",
       territory: "Arizona",
       link: "www.cambridge.org",
-      image: "http://aerassoc.org/wpimages/wpfde12f0c_06.png",
+      image: "https://imgur.com/N5Su2QH.png",
       services: [
         "K-12, Adult ESL and Higher Education. Foreign Language, Mathematics, Reading/Language, Media/Library, Science, Social Studies, Technology, Business, Tests/TestPrep, Professional Development"
       ]
@@ -214,7 +215,7 @@ const state = {
       email: "Randyyocum.empower@gmail.com",
       territory: "Arizona",
       link: "http://www.empowerec.com/",
-      image: "http://aerassoc.org/wpimages/wpfb1372cc_06.png",
+      image: "https://imgur.com/B38uHYg.png",
       services: []
     },
     {
@@ -227,7 +228,7 @@ const state = {
       email: "matt@backbonecommunications.com",
       territory: "Arizona, New Mexico, Nevada, Utah, California",
       link: "http://www.backbonecommunications.com/",
-      image: "http://aerassoc.org/wpimages/wpf175fa23_06.png",
+      image: "https://imgur.com/mBWBry6.png",
       services: [
         "K-Adult",
         "Foreign Language, Mathematics, Reading/Language, Media/Library, Science, Social Studies, Special Education, Technology, Tests/Test Prep, Health, Professional Development, Adult Education, Learning Management, ESL, Intervention, Assessment, Educational Technology."

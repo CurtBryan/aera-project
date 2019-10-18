@@ -52,7 +52,7 @@ export default {};
   width: 90vw;
   border-top: 5px solid #c07607;
   border-bottom: 5px solid #c07607;
-  background-image: url("../assets/img/footer-bg.png");
+  background-image: url("https://i.imgur.com/nk7Ikkw.png");
   background-size: cover;
 }
 .footer-link-container {

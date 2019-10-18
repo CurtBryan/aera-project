@@ -3,11 +3,19 @@
     <div class="rep-db-cont">
       <div class="header">
         <h1>Search By Companies</h1>
-        <div class="button" @click="$router.push({ name: `MemberSignUp` })">Become A Member</div>
       </div>
       <div class="name-cont">
         <div class="single-name" v-for="(person, index) in persons" :key="index">
-          <p @click="pushToDetailPage(index)">{{ person.company }}</p>
+          <p
+            v-if="person.company !== 'McGraw-Hill Education'"
+            @click="pushToDetailPage(index)"
+          >{{ person.company }}</p>
+        </div>
+        <div class="single-name">
+          <p @click="pushToDetailPage(10)">{{ persons[10].company }}({{persons[10].displayName}})</p>
+        </div>
+        <div class="single-name">
+          <p @click="pushToDetailPage(11)">{{ persons[11].company }}({{persons[11].displayName}})</p>
         </div>
       </div>
     </div>
@@ -49,7 +57,7 @@ export default {
   width: 90vw;
   height: 500px;
   background: white;
-  background-image: url("http://aerassoc.org/wpimages/wp283fa072_06.png");
+  background-image: url("https://imgur.com/PUljFef.png");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -88,26 +96,7 @@ h1 {
   color: #0070bc;
   font-size: 24px;
 }
-.button {
-  background-color: #0070bc;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  border-radius: 10px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #eb9009;
-  color: black;
-  cursor: pointer;
-}
+
 @media screen and (max-width: 800px) {
   .name-cont {
     min-height: 250px;

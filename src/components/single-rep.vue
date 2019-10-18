@@ -6,7 +6,11 @@
       </div>
       <div class="body">
         <div class="info-side">
-          <p class="name">{{ info.displayName }}</p>
+          <p class="name">
+            {{ info.displayName }}
+            <i v-if="info.email === 'chalexn@cox.net'">Ed.D.</i>
+          </p>
+          <p class="label" v-if="info.email === 'chalexn@cox.net'">Chalex Educational Services</p>
           <p class="location">{{ info.location }}</p>
           <br />
           <p>
@@ -18,15 +22,14 @@
             {{ info.fax }}
           </p>
           <br />
-          <p class="email">
-            <span class="label">Email:</span>
-            {{ info.email }}
-          </p>
-          <br />
           <p>
             <span class="label">Territory:</span>
             {{ info.territory }}
           </p>
+          <br />
+          <br />
+          <br />
+          <img src="https://imgur.com/o1qWOZs.png" @click="printPage" />
         </div>
         <div class="logo-side">
           <h3 class="label">Represents:</h3>
@@ -41,6 +44,12 @@
             <br />
             <p class="label">Visit Website:</p>
             <a :href="info.link">{{ info.link }}</a>
+            <br />
+            <br />
+            <p class="email">
+              <span class="label">Email:</span>
+            </p>
+            <a class="email-link" :href="`mailto:` + info.email">{{ info.email }}</a>
           </div>
         </div>
       </div>
@@ -63,6 +72,11 @@ export default {
       if (list[i].displayName === name) {
         this.info = list[i];
       }
+    }
+  },
+  methods: {
+    printPage() {
+      window.print();
     }
   }
 };
@@ -119,16 +133,28 @@ h3 {
 li {
   margin: 5px 0;
 }
+.email-link {
+  word-break: break-all;
+}
 .label,
 .name {
   font-size: 18px;
   font-weight: 600;
+}
+.location {
+  width: 165px;
 }
 img {
   max-width: 300px;
 }
 .email {
   word-wrap: break-word;
+}
+i {
+  font-style: italic;
+}
+a {
+  color: #0070bc;
 }
 @media screen and (max-width: 700px) {
   .single-rep-db-cont {
