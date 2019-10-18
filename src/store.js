@@ -33,6 +33,8 @@ const state = {
       link: "http://www.cloudedu.com/",
       image: "https://imgur.com/2oaQ5mq.png",
       services: [
+        "k-12-",
+        "Bullying intervention “Hallway Heros”, ELL Oral Language and Vocabulary Intervention, “Discussion 4 Learning” Arizona History, Arizona Government, eTextbooks",
         "Arizona history, Arizona government, Arizona map and Arizona Native American programs",
         "eBook texts of latest editions",
         "Hallway Heros - Anti Bullying Program",
