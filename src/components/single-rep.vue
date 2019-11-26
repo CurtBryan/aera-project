@@ -10,7 +10,9 @@
             {{ info.displayName }}
             <i v-if="info.email === 'chalexn@cox.net'">Ed.D.</i>
           </p>
+          <br />
           <p class="label" v-if="info.email === 'chalexn@cox.net'">Chalex Educational Services</p>
+          <p class="label" v-if="info.email === 'brad.peters@cox.net'">President of AERA</p>
           <p class="location">{{ info.location }}</p>
           <br />
           <p>
@@ -29,12 +31,12 @@
           <br />
           <br />
           <br />
-          <img src="https://imgur.com/o1qWOZs.png" @click="printPage" />
+          <img src="https://imgur.com/o1qWOZs.png" @click="printPage" alt="print button" />
         </div>
         <div class="logo-side">
           <h3 class="label">Represents:</h3>
           <br />
-          <img :src="info.image" />
+          <img :src="info.image" alt="company image" />
           <br />
           <div class="services-list">
             <h4 class="label">Products/Services:</h4>

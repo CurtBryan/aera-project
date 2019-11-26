@@ -11,13 +11,8 @@ import MemberSignUp from "../components/member-sign-up.vue";
 Vue.use(VueRouter);
 
 export default new VueRouter({
-  mode: "history",
+  mode: "hash",
   routes: [
-    {
-      path: "/",
-      name: "HomePage",
-      component: HomePage
-    },
     {
       path: "/representatives",
       name: "Representatives",
@@ -44,9 +39,19 @@ export default new VueRouter({
       component: MemberSignUp
     },
     {
+      path: "/",
+      name: "HomePage",
+      component: HomePage
+    },
+    {
       path: "/:displayName",
       name: "SingleRep",
       component: SingleRep
+    },
+    {
+      path: "*",
+      name: "CatchAll",
+      component: HomePage
     }
   ]
 });

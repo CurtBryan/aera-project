@@ -46,18 +46,24 @@ export default {};
   text-overflow: ellipsis;
   color: white;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
 }
 .nav-link:hover {
   background-color: #eb9009;
   color: black;
   cursor: pointer;
 }
+.router-link-exact-active {
+  background-color: #eb9009;
+  color: black;
+}
 @media screen and (max-width: 700px) {
   .header-body-db-cont {
     width: 100vw;
   }
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 630px) {
   .header-links-container {
     flex-direction: column;
   }

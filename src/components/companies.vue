@@ -30,7 +30,7 @@ export default {
       persons: []
     };
   },
-  mounted() {
+  created() {
     this.persons = this.$store.state.persons;
   },
   methods: {
@@ -97,6 +97,11 @@ h1 {
   font-size: 24px;
 }
 
+@media screen and (max-width: 870px) {
+  .name-cont {
+    min-height: 250px;
+  }
+}
 @media screen and (max-width: 800px) {
   .name-cont {
     min-height: 250px;

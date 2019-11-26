@@ -3,8 +3,8 @@
     <div class="contact-db-cont">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSe2yYlwZTndlaF_rtJ-LZIN-UKGn2CmAV8ZfLeF9W-qxYUtjg/viewform?embedded=true"
-        width="600"
-        height="1598"
+        width="640"
+        height="1800"
         frameborder="0"
         marginheight="0"
         marginwidth="0"

@@ -24,7 +24,7 @@
               <a href="http://www.azed.gov/" target="_blank">Arizona Department of Education</a>
             </li>
             <li>
-              <a href="https://www.azed.gov/azccrs/" target="_blank">AZ Common Core Standards</a>
+              <a href="https://www.azed.gov/" target="_blank">AZ Common Core Standards</a>
             </li>
             <li>
               <a
@@ -56,51 +56,48 @@
                 target="_blank"
               >National Council of Supervisors of Mathematics</a>
             </li>
-            <li>
-              <a href="https://parcc-assessment.org/" target="_blank">PARCC</a>
-            </li>
           </ul>
         </div>
       </div>
       <div class="person-cont box">
         <h2>Officers</h2>
         <div class="single-person-cont">
-          <img src="https://imgur.com/bGIXHDz.png" alt="hero image" />
+          <img src="https://imgur.com/bGIXHDz.png" alt="officer image" />
           <div>
             <h3 @click="pushToDetails('Brad Peters')">Brad Peters</h3>
             <p class="i-text">President</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="https://imgur.com/XwIOfbP.png" alt="hero image" />
+          <img src="https://imgur.com/XwIOfbP.png" alt="officer image" />
           <div>
             <h3 @click="pushToDetails('Robin McMath')">Robin McMath</h3>
             <p class="i-text">Vice-President</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="https://i.imgur.com/BJw1eiO.png" alt="hero image" />
+          <img src="https://i.imgur.com/BJw1eiO.png" alt="officer image" />
           <div>
             <h3 @click="pushToDetails('Matt West')">Matt West</h3>
             <p class="i-text">Treasurer</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="https://i.imgur.com/AmNGzGV.png" alt="hero image" />
+          <img src="https://i.imgur.com/AmNGzGV.png" alt="officer image" />
           <div>
             <h3 @click="pushToDetails('Anne Stagliano')">Anne Stagliano</h3>
             <p class="i-text">Secretary</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="https://i.imgur.com/Gg21ggc.png" alt="hero image" />
+          <img src="https://i.imgur.com/Gg21ggc.png" alt="officer image" />
           <div>
             <h3 @click="pushToDetails('Kim Peters')">Kim Peters</h3>
             <p class="i-text">Board Member</p>
           </div>
         </div>
         <div class="single-person-cont">
-          <img src="https://i.imgur.com/yizdMWj.png" alt="hero image" />
+          <img src="https://i.imgur.com/yizdMWj.png" alt="officer image" />
           <div>
             <h3 @click="pushToDetails('Tawnya Combe')">Tawnya Combe</h3>
             <p class="i-text">Board Member</p>
@@ -181,6 +178,7 @@ h2 {
 }
 p {
   font-size: 18px;
+  line-height: 1.5;
 }
 h3 {
   color: #0070bc;
@@ -195,7 +193,7 @@ h3:hover {
 }
 
 h4 {
-  margin: 5px 0;
+  margin: 15px 0;
   font-size: 18px;
   font-weight: 600;
   text-decoration: underline;

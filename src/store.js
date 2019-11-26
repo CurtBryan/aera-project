@@ -11,7 +11,7 @@ const state = {
       company: "Benchmark Education",
       location: "Scottsdale, AZ",
       phone: "480-292-2732",
-      fax: "",
+      fax: "N/A",
       email: "chalexn@cox.net",
       territory: "Arizona",
       link: "https://benchmarkeducation.com/",
@@ -50,7 +50,7 @@ const state = {
       fax: "480-785-0055",
       email: "mrscombe@msn.com",
       territory: "Arizona",
-      link: "",
+      link: "N/A",
       image: "https://imgur.com/Lj9cyad.png",
       services: [
         "K-12",
@@ -63,11 +63,11 @@ const state = {
       company: "Spinitar",
       location: "632 E. Raven Way Gilbert, AZ 85297",
       phone: "602-499-1781",
-      fax: "",
+      fax: "N/A",
       email: "toddc@splinitar.com",
       territory: "Arizona, Nevada",
-      link: "",
-      image: "",
+      link: "N/A",
+      image: "N/A",
       services: []
     },
     {
@@ -82,7 +82,7 @@ const state = {
       link: "www.pearson.com",
       image: "https://imgur.com/LyorMYt.png",
       services: [
-        "Basal products for the K-6 school markets including math, reading, social studies, science, music, arts, etc and intervention products as well as technology."
+        "Basal products for the K-12 school markets including math, reading, social studies, science, music, arts, etc and intervention products as well as technology."
       ]
     },
     {
@@ -91,8 +91,8 @@ const state = {
       company: "Amplify Learning",
       location: "2470 W Hemlock Way Chandler, AZ 85248",
       phone: "505-681-6883",
-      fax: "",
-      email: "",
+      fax: "N/A",
+      email: "N/A",
       territory: "Arizona",
       link: "www.amplify.com",
       image: "https://imgur.com/PvcoCaw.png",
@@ -131,34 +131,31 @@ const state = {
     {
       name: "Peters, Kim",
       displayName: "Kim Peters",
-      company: "Triumph Learning",
+      company: "School Specialty",
       location: "Chandler, AZ 85249",
       phone: "602.757.2575",
-      fax: "480-773-6581",
+      fax: "N/A",
       email: "kim.peters@cox.net",
       territory: "Arizona",
-      link: "http://www.triumphlearning.com/",
-      image: "https://imgur.com/TcKt3K6.png",
+      link: "https://www.schoolspecialty.com/",
+      image: "https://imgur.com/tj5n8oA.png",
       services: [
         "Gr. K-12",
-        "Triumph Learning is the leading publisher of K-12 Common Core resources, standards-aligned instructional materials, and effective literacy programs (Coach, Buckledown & Options Publishing).",
         "Mathematics, Reading/Language, Science, Social Studies, Technology, Tests/Test Prep, Professional Development, Intervention, Assessment, Educational Technology"
       ]
     },
     {
       name: "Peters, Brad",
       displayName: "Brad Peters",
-      company: "Vantage Learning",
-      location: "2200 S. Navajo Way Chandler, AZ 85286",
+      company: "AERA",
+      location: "Phoenix, AZ",
       phone: "602-757-7529",
-      fax: "",
+      fax: "N/A",
       email: "brad.peters@cox.net",
-      territory: "West",
-      link: "http://www.vantagelearning.com/",
-      image: "https://imgur.com/4bIVnmB.png",
-      services: [
-        "Since 1990, Vantage Learning has provided educators with sophisticated knowledge and immediate feedback solutions to enhance student learning. These technologies are currently deployed for diagnostic, formative, benchmark, summative, placement, and pre-/post-testing solutions as well as instructional purposes. Our applications are designed to be cost-effective, secure, and scalable to fit any need."
-      ]
+      territory: "U.S.",
+      link: "https://aerassoc.com",
+      image: "https://imgur.com/yHHptX6.png",
+      services: ["Educational Materials"]
     },
     {
       name: "Stagliano, Anne",
@@ -192,13 +189,29 @@ const state = {
       ]
     },
     {
+      name: "West, Matt",
+      displayName: "Matt West",
+      company: "Backbone Communications",
+      location: "945 N. Balboa Ct. Gilbert, AZ 85234",
+      phone: "602.349.3693",
+      fax: "N/A",
+      email: "matt@backbonecommunications.com",
+      territory: "Arizona, New Mexico, Nevada, Utah, California",
+      link: "http://www.backbonecommunications.com/",
+      image: "https://imgur.com/mBWBry6.png",
+      services: [
+        "K-Adult",
+        "Foreign Language, Mathematics, Reading/Language, Media/Library, Science, Social Studies, Special Education, Technology, Tests/Test Prep, Health, Professional Development, Adult Education, Learning Management, ESL, Intervention, Assessment, Educational Technology."
+      ]
+    },
+    {
       name: "Whittaker, Kendra",
       displayName: "Kendra Whittaker",
       company: "Cambridge University Press",
       location: "1962 S Talbot Circle Mesa, AZ  85209-7055",
       phone:
         "(800) 872-7423 / (800)-ESL-BUZZ / [Toll-Free:] (855) 778-1134 / [Mobile:] (347) 963-6936",
-      fax: "",
+      fax: "N/A",
       email: "kwhittaker@cambridge.org",
       territory: "Arizona",
       link: "www.cambridge.org",
@@ -219,22 +232,6 @@ const state = {
       link: "http://www.empowerec.com/",
       image: "https://imgur.com/B38uHYg.png",
       services: []
-    },
-    {
-      name: "West, Matt",
-      displayName: "Matt West",
-      company: "Backbone Communications",
-      location: "945 N. Balboa Ct. Gilbert, AZ 85234",
-      phone: "602.349.3693",
-      fax: "",
-      email: "matt@backbonecommunications.com",
-      territory: "Arizona, New Mexico, Nevada, Utah, California",
-      link: "http://www.backbonecommunications.com/",
-      image: "https://imgur.com/mBWBry6.png",
-      services: [
-        "K-Adult",
-        "Foreign Language, Mathematics, Reading/Language, Media/Library, Science, Social Studies, Special Education, Technology, Tests/Test Prep, Health, Professional Development, Adult Education, Learning Management, ESL, Intervention, Assessment, Educational Technology."
-      ]
     }
   ]
 };

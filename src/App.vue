@@ -117,6 +117,11 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,

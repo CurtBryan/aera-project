@@ -21,7 +21,9 @@
           <div>
             <h3>Membership Information</h3>
             <div class="direct-link-container">
-              <p @click="$router.push({ name: 'MemberSignUp' })">Membership Application Form</p>
+              <p
+                @click="$router.push({ name: 'MemberSignUp' })"
+              >New Membership Application Form and Renewal</p>
             </div>
           </div>
           <div>
