@@ -208,7 +208,7 @@ const state = {
       name: "Whittaker, Kendra",
       displayName: "Kendra Whittaker",
       company: "Cambridge University Press",
-      location: "1962 S Talbot Circle Mesa, AZ  85209-7055",
+      location: "1 Liberty Plaza Floor 20, Ney York, NY 10006",
       phone:
         "(800) 872-7423 / (800)-ESL-BUZZ / [Toll-Free:] (855) 778-1134 / [Mobile:] (347) 963-6936",
       fax: "N/A",
